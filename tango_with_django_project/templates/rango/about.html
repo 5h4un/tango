@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+{% load static %} <!-- New line -->
+<html>
+
+    <head>
+        <title>About</title>
+    </head>
+
+    <body>
+        <h1>Emmett says...</h1>
+        hello world! <strong>{{ boldmessage }}</strong><br />
+        <a href="/rango/">Index</a><br />
+        <img src="{% static "images/emmett.jpg" %}" alt="Picture of Emmett" /> <!-- New line -->
+    </body>
+
+</html>
